@@ -17,6 +17,7 @@ footer {
 
 #etusivu {
     background-image: url(./images/still-life-2366084_1920.jpg);
+    scale: 50%;
 }
 
 #otsikko {
