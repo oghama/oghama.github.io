@@ -7,10 +7,11 @@ html {
 
 .linkit {
     background-color: #FFCD00; 
-    font-family: 'Montserrat';
+    font-family: 'Pacifico';
     font-size: 30px;
     text-decoration-line: none;
     color: #FFFFFF;
+    padding: 5px;
 }
 
 header {
