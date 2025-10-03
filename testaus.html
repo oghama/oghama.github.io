@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kahvilan tuotteet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fdfaf6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #8B5E3C;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card h2 {
+      margin: 0 0 0.5rem 0;
+    }
+    .card p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1rem;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    button {
+      background: #D2691E;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #a0522d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kahvilan tuotteet</h1>
+  </header>
+
+  <main class="container">
+    <!-- Latte -->
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?latte,coffee" alt="Latte">
+      <div class="card-content">
+        <div>
+          <h2>Latte</h2>
+          <p>Pehmeä maitokahvi, täydellinen aamun aloitukseen.</p>
+        </div>
+        <div class="card-footer">
+          <span class="price">3,90 €</span>
+          <button>Lisää ostoskoriin</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cappuccino -->
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?cappuccino,coffee" alt="Cappuccino">
+      <div class="card-content">
+        <div>
+          <h2>Cappuccino</h2>
+          <p>Vahva espresso ja täyteläinen maitovaahto.</p>
+        </div>
+        <div class="card-footer">
+          <span class="price">4,20 €</span>
+          <button>Lisää ostoskoriin</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Espresso -->
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?espresso,coffee" alt="Espresso">
+      <div class="card-content">
+        <div>
+          <h2>Espresso</h2>
+          <p>Puhdas, intensiivinen espressoshotti.</p>
+        </div>
+        <div class="card-footer">
+          <span class="price">2,50 €</span>
+          <button>Lisää ostoskoriin</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
