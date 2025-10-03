@@ -16,14 +16,15 @@ html {
 }
 
 footer {
+    
     align-items: center;
     background-color: #FFCD00;
-    width: 80%;    
+    width: 1000px;    
 }
 
 #etusivu {
     background-image: url(./images/leaves-6640617_640.jpg);
-    scale: 100%;
+    width: auto;
 }
 
 #otsikko {
