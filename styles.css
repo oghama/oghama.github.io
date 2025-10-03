@@ -3,6 +3,14 @@ html {
     background-color: #6F9400;
 }
 
+#linkit {
+    background-color: #FFCD00;    
+}
+
+#valittu {
+    background-color: rgba(235, 235, 190, 0.867);
+}
+
 footer {
     background-color: #FFCD00;    
 }
@@ -16,9 +24,7 @@ footer {
     color: #f9f9f9;
 }
 
-#valittu {
-    background-color: rgba(77, 77, 0, 0.867);
-}
+
 
 h1 {
     font-family: 'Pacifico';
