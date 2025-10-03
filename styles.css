@@ -4,7 +4,11 @@ html {
 }
 
 .linkit {
-    background-color: #FFCD00;    
+    background-color: #FFCD00; 
+    width: 20%;
+    font-family: 'Montserrat';
+    font-size: 20px;
+
 }
 
 #valittu {
