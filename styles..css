@@ -10,3 +10,7 @@ html {
 #otsikko {
     background-color: #FFCD00;
 }
+
+#valittu {
+    background-color: rgba(77, 77, 0, 0.867);
+}
