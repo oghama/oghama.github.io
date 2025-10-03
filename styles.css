@@ -37,6 +37,9 @@ h1 {
 p {
     font-family: 'Montserrat';
     font-size: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: black;
 }
 
 h2 {
