@@ -7,7 +7,7 @@ html {
     background-color: #FFCD00; 
     width: 20%;
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 30px;
 
 }
 
@@ -16,12 +16,14 @@ html {
 }
 
 footer {
-    background-color: #FFCD00;    
+    align-items: center;
+    background-color: #FFCD00;
+    width: 80%;    
 }
 
 #etusivu {
     background-image: url(./images/leaves-6640617_640.jpg);
-    scale: 50%;
+    scale: 100%;
 }
 
 #otsikko {
