@@ -1,3 +1,12 @@
+
+html {
+    background-color: #6F9400;
+}
+
 #etusivu {
-    background-image: "./images/still-life-2366084_1920(1).jpg";
+    background-image: url(./images/still-life-2366084_1920(1).jpg);
+}
+
+#otsikko {
+    background-color: #FFCD00;
 }
