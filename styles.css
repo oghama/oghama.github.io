@@ -9,7 +9,7 @@ html {
 
 #otsikko {
     background-color: #FFCD00;
-    color: red;
+    color: #f9f9f9;
 }
 
 #valittu {
@@ -19,6 +19,7 @@ html {
 h1 {
     font-family: 'Pacifico';
     font-size: 40px;
+    color: #f9f9f9;
 }
 
 p {
@@ -29,4 +30,5 @@ p {
 h2 {
     font-family: 'Pacifico';
     font-size: 30px;
+    color: #f9f9f9;
 }
