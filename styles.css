@@ -11,7 +11,7 @@ header, footer {
     margin: 0;
     left: 0;
     right: 0;
-    position: relative;
+   
 }
 
 header {
@@ -20,7 +20,7 @@ header {
     z-index: 1000;
     background: #FFCD00;
     box-shadow: 0 2px 6px rgba(0,0,0,.08);
-    
+
     text-align: center;
     font-family: 'Pacifico';
     color: black;
