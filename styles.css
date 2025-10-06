@@ -39,18 +39,55 @@ footer {
     width: auto;    
 }
 
-#etusivu {
-    width: auto;
-}
-
 #otsikko {
     background-color: #FFCD00;
     color: #f9f9f9;
 }
 
-#kuva {
-    display: flex;
-    font-size 5px;
+.sisalto {
+    display: block;
+}
+
+.sisalto .kuva img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+@media (min-width: 900px) {
+    .sisalto .kuva {
+        float: left;
+        width: 50%;
+        margin: 0 1rem 1rem 0;
+        font-size: 10px;
+        color: black;
+    }
+
+    .sisalto .kuva img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.sisalto::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 899) {
+    .sisalto .kuva {
+        float: none;
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+    .sisalto .kuva img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 h1 {
